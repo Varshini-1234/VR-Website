@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/0f4c91140d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="vr-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" style="color:#323f4b; font-family:Roboto;" onclick="display('sectionhome')">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" style="color:#323f4b; font-family:Roboto;" onclick="display('sectionfeatures')">Features</a>
+                    <a class="nav-link" style="color:#323f4b; font-family:Roboto;" onclick="display('sectionproducts')">Products</a>
+                    <a class="nav-link" style="color:#323f4b; font-family:Roboto;" onclick="display('sectiontrendingblogs')">Trending Blogs</a>
+                    <a class="nav-link" style="color:#323f4b; font-family:Roboto;" onclick="display('sectioncontactus')">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="sectionhome">
+        <div class="vr-bg-container d-flex flex-column justify-content-center">
+            <div class="text-center">
+                <h1 class="vr-heading text-center">The Revolution In Virtual Reality</h1>
+                <button class="button" onclick="display('sectionfeatures')">View More</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfeatures">
+        <div class="features-section pt-4 pb-4" style="margin-top:65px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="features-heading">Features</h1>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card-container">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-connect-img.png" class="features-image mt-3" />
+                            <h1 class="featurescard-heading pt-3">Easy to connect</h1>
+                            <p class="featurescard-para pb-4">Instead of viewing a screen in front of them, users are immersed and able to interact with 3D worlds.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-capability-img.png" class="features-image mt-3" />
+                            <h1 class="featurescard-heading pt-3">VR Capability</h1>
+                            <p class="featurescard-para pb-4">Virtual reality (VR) can create an environment, similar to or completely different from thr real world.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/video-games-img.png" class="features-image mt-3" />
+                            <h1 class="featurescard-heading pt-3">Video games</h1>
+                            <p class="featurescard-para pb-4">Ability to recognize hand motion, evolving interactions and gameplay in VR.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/interaction-img.png" class="features-image mt-3" />
+                            <h1 class="featurescard-heading pt-3">Interaction</h1>
+                            <p class="featurescard-para pb-4">Interaction refers to the <span class="interaction-text">natural interaction</span> between the user and the virtual scene.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-play-img.png" class="features-image mt-3" />
+                            <h1 class="featurescard-heading pt-3">Easy to play</h1>
+                            <p class="featurescard-para pb-4">In 360-degree video, the locations of viewers are fixed, viewers are limited to the angles captured by the cameras.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="card-container">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/experience-img.png" class="features-image mt-3" />
+                            <h1 class="featurescard-heading pt-3">Awesome Experience</h1>
+                            <p class="featurescard-para pb-4">Virtual reality (VR) is a simulated experience that can be similar to or completely different from the real world.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="vr-kit pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="vr-kit-heading">Included VR kit</h1>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="vr-kit-card">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png" class="vr-kit-image mt-3" />
+                            <h1 class="vr-kit-card-heading pt-3 pb-4">Two Touch Controllers</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="vr-kit-card">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-2-img.png" class="vr-kit-image mt-3" />
+                            <h1 class="vr-kit-card-heading pt-3 pb-4">Vr Headset</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="vr-kit-card">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-3-img.png" class="vr-kit-image mt-3" />
+                            <h1 class="vr-kit-card-heading pt-3 pb-4">Charging Cable</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="optics-controllers-section pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-1 order-md-2">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-optics-img.png" class="optics-controllers-image" />
+                    </div>
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center order-2 order-md-1 mb-5">
+                        <h1 class="optics-controllers-card-heading mt-1">Improved Optics</h1>
+                        <p class="optics-controllers-card-para">A virtual reality headset is a head-mounted device that provides virtual reality for the wearer.</p>
+                        <button class="readmore-button mb-4">Read More</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png" class="optics-controllers-image" />
+                    </div>
+                    <div class="col-12 col-md-6  d-flex flex-column justify-content-center ">
+                        <h1 class="optics-controllers-card-heading mt-1">Two Touch Controllers</h1>
+                        <p class="optics-controllers-card-para">Your Oculus Touch controllers are a pair of tracked controllers that give you a hand.</p>
+                        <button class="btn readmore-button mb-4">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectioncontactus">
+        <div class="contactus-section pt-5" style="margin-top:50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 order-md-2 ">
+                        <div class="contactus-card">
+                            <h1 class="contactus-heading pb-3">Virtually Anything is Possible</h1>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-set-img.png" class="contactus-image d-md-none" />
+                            <button class="contactus-button text-uppercase mt-2 mt-md-0" onclick="display('sectionfooter')">contact us</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 order-md-1 d-none d-md-block">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-set-img.png" class="contactus-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiontrendingblogs">
+        <div class="blogs-section pt-4 pb-4" style="margin-top:50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="blogs-heading pb-2">Trending Blogs</h1>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="blogs-card mt-md-3 shadow">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png" class="blogs-image" />
+                            <h1 class="blogs-card-heading pl-3 pt-2">Amazon</h1>
+                            <p class="blogs-card-para pl-3">New Way to See the World. It is a simulated experience that can be completely different from the real world.</p>
+                            <a class="blogs-card-link text-uppercase pl-3" href="">
+                                read more
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="currentcolor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="blogs-card mt-md-3 shadow">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png" class="blogs-image" />
+                            <h1 class="blogs-card-heading pl-3 pt-2">Advertising</h1>
+                            <p class="blogs-card-para pl-3">The best one for you. Come experience the wonder of Google Earth in virtual reality.</p>
+                            <a class="blogs-card-link text-uppercase pl-3" href="">
+                                read more
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="currentcolor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end">
+                            <button class="viewall-button mt-3">View All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionproducts">
+        <div class="products-section pb-3 pt-4" style="margin-top:50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="products-heading pb-2">Products</h1>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="products-image-1 d-flex flex-column justify-content-end pb-2 mb-3">
+                            <h1 class="products-card-heading pl-2">VR Headset</h1>
+                            <p class="products-cost pl-2">Rs 75,000</p>
+                            <button class="buynow-button ml-2">Buy Now</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="products-image-2 d-flex flex-column justify-content-end pb-2">
+                            <h1 class="products-card-heading pl-2">VR Headset and Two Touch Controllers</h1>
+                            <p class="products-cost pl-2">Rs 90,000</p>
+                            <button class="buynow-button ml-2">Buy Now</button>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end">
+                            <button class="viewall-button mt-3">View All</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfooter">
+        <div class="footer-section pt-5 pb-4" style="margin-top:50px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="text-center text-md-left">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png" class="footer-image" />
+
+                            <div class="d-flex flex-row justify-content-center justify-content-md-start mt-3 mb-3">
+                                <div class="footer-icon-container">
+                                    <i class="fa-brands fa-google footer-icon"></i>
+                                </div>
+                                <div class="footer-icon-container">
+                                    <i class="fa-brands fa-twitter footer-icon"></i>
+                                </div>
+                                <div class="footer-icon-container">
+                                    <i class="fa-brands fa-instagram footer-icon"></i>
+                                </div>
+                                <div class="footer-icon-container">
+                                    <i class="fa-brands fa-linkedin footer-icon"></i>
+                                </div>
+                            </div>
+                            <h1 class="footer-address m-4">37, Ayur Vigyan Nagar, New Delhi, India.</h1>
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 col-md-4 mt-3 mt-md-5">
+                        <h1 class="footer-contactus pb-2 ml-md-5 pl-md-4">Contact Us</h1>
+                        <ul class="footer-section-list ml-md-5 pl-md-4">
+                            <li class="mb-3 d-flex ">
+                                <i class="fa-solid fa-envelope contactus-icon mr-2"></i>
+                                <h1 class="footer-contact-details">vv@gmail.com</h1>
+                            </li>
+                            <li class="mb-3 d-flex ">
+                                <i class="fa-solid fa-phone contactus-icon mr-2"></i>
+                                <span class="footer-contact-details">1234506789</span>
+                            </li>
+                            <li class="mb-3 d-flex">
+                                <i class="fa-brands fa-skype contactus-icon mr-2"></i>
+                                <h1 class="footer-contact-details">Vaishnave</h1>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 mt-3 mt-md-5">
+                        <h1 class="footer-contactus ml-md-5">Let Us Help You</h1>
+                        <ul class="footer-section-list ml-md-5">
+                            <li class="footer-contact-details mt-md-3">100% Purchase Protection</li>
+                            <li class="footer-contact-details mt-md-2">Your Account</li>
+                            <li class="footer-contact-details mt-md-2">Return Centre Help</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <hr class="hr-line" />
+                <div class="text-center">
+                    <i class="fa-regular fa-copyright contactus-icon"></i>
+                    <span class="footer-copyright">2020 by vaishnave. Created with Bootstrap.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
